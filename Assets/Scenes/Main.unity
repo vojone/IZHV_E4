@@ -528,6 +528,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1981023454}
     m_Modifications:
+    - target: {fileID: 399396584074876521, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 097ff680e0000564ea08b262a4f2a358, type: 2}
     - target: {fileID: 3905705461628646439, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -576,10 +580,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4912879227352721295, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 097ff680e0000564ea08b262a4f2a358, type: 2}
+    - target: {fileID: 5195074604166276115, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 097ff680e0000564ea08b262a4f2a358, type: 2}
     - target: {fileID: 5253458166593666321, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 7027848386288763354, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 097ff680e0000564ea08b262a4f2a358, type: 2}
+    - target: {fileID: 8403691074900178714, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 097ff680e0000564ea08b262a4f2a358, type: 2}
     - target: {fileID: 8964581057481001736, guid: a24a01854edc9da469b65a86efd3d043, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

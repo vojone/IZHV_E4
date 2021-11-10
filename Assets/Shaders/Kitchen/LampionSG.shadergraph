@@ -59,9 +59,6 @@
         },
         {
             "m_Id": "577df3e881754e379f3407142d9f0cdd"
-        },
-        {
-            "m_Id": "895c334cfb21459eae005c2be22ac1bb"
         }
     ],
     "m_GroupDatas": [],
@@ -98,29 +95,15 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "895c334cfb21459eae005c2be22ac1bb"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "9ed1140dd127479ca86e3536e799c731"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "98745886233740bba6e0dc6cd160540a"
                 },
                 "m_SlotId": 3
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "895c334cfb21459eae005c2be22ac1bb"
+                    "m_Id": "9ed1140dd127479ca86e3536e799c731"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 1
             }
         },
         {
@@ -476,7 +459,7 @@
     "m_ShaderOutputName": "Tiling",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
+        "x": 5.0,
         "y": 0.800000011920929
     },
     "m_DefaultValue": {
@@ -742,44 +725,6 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Smoothness"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.InvertColorsNode",
-    "m_ObjectId": "895c334cfb21459eae005c2be22ac1bb",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Invert Colors",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -561.0,
-            "y": 171.0,
-            "width": 208.0,
-            "height": 391.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "af99dd6150cb4ef2a0c5a7a07afb643a"
-        },
-        {
-            "m_Id": "f7d93ebfce8e4e73ba34154f7ee5bb9a"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_RedChannel": false,
-    "m_GreenChannel": false,
-    "m_BlueChannel": false
 }
 
 {
@@ -1074,30 +1019,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "af99dd6150cb4ef2a0c5a7a07afb643a",
-    "m_Id": 0,
-    "m_DisplayName": "In",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "In",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
     "m_ObjectId": "b158aabe70884d97865d3de4b053edcd",
     "m_Id": 0,
@@ -1368,8 +1289,8 @@
     "m_ShaderOutputName": "Offset",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.0,
-        "y": 100.0
+        "x": 2.0,
+        "y": 10.0
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -1405,30 +1326,6 @@
     },
     "isMainColor": false,
     "m_ColorMode": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "f7d93ebfce8e4e73ba34154f7ee5bb9a",
-    "m_Id": 1,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
 }
 
 {
